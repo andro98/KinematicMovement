@@ -283,7 +283,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 588509353}
-  maxSpeed: 2
+  maxSpeed: 5
+  radius: 0.25
+  timeToTarget: 1
+  kinematicState: 0
 --- !u!50 &1411304942
 Rigidbody2D:
   serializedVersion: 4
